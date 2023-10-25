@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DM Serif Display', serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--------main-------*/
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.5)),url(../img/akita-line3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.logo{
+  height:100px;
+}
+
+.logo img {
+  height: 100%;
+  object-fit: contain;
+  object-position:center ;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu li a{
+  margin: 0px 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.nav-about,
+.nav-dogs,
+.nav-puppies,
+.nav-shows,
+.nav-contact{
+padding: 10px 20px;
+background-color: orange;
+color:white;
+border-radius: 3px;
+}
+
+h1{
+color: aliceblue;
+font-size: 5em;
+font-weight: 400;
+text-align: center;
+}
+.text-box{
+display: block;
+padding: 100px;
+text-align: right;
+color: aliceblue;
+font-size: 1.5em;
+
+}
